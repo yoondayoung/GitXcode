@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		F61441A3263E086E002A426B /* GitXcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitXcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61441A6263E086E002A426B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F61441AE263E093C002A426B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		F614419A263E086E002A426B = {
 			isa = PBXGroup;
 			children = (
+				F61441AE263E093C002A426B /* .gitignore */,
 				F61441A5263E086E002A426B /* GitXcode */,
 				F61441A4263E086E002A426B /* Products */,
 			);
@@ -90,6 +92,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = University;
 				TargetAttributes = {
 					F61441A2263E086E002A426B = {
 						CreatedOnToolsVersion = 12.4;
@@ -97,7 +100,7 @@
 				};
 			};
 			buildConfigurationList = F614419E263E086E002A426B /* Build configuration list for PBXProject "GitXcode" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
